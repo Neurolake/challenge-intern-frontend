@@ -18,8 +18,11 @@ Você também é livre para fazer melhorias e implementações de features na ap
 ## O aplicativo deve ter:
 
 1.1 - Formulário de adicionar to do (Modal)
+
 1.1.1 - O to do deve possuir um título e uma descrição
+
 1.2 - Lista de to dos com opção de deletar
+
 1.3 - Nome do usuário "logado" para identificar de quem é a conta
 
 ## Como rodar a API
@@ -35,6 +38,7 @@ Agora é só rodar a aplicação com `yarn start` (rodará na porta 3000)
 
 ## Rotas
 
+```json
 API URL http://localhost:3000
 
 List Todos
@@ -101,10 +105,11 @@ Request body:
 Delete Todo
 DELETE /todos/:id
 Response
-{ message: “Deleted successfully” }
+{ "message": “Deleted successfully” }
 
 
 
 Objeto de erro sempre vai seguir:
 
-{ message: string }
+{ "message": string }
+```
